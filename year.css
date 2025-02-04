@@ -4,13 +4,14 @@
 
 
 .new-bg{
-    background-image: url(images/Banner-image.png);
+    background-image:linear-gradient(rgba(34, 33, 33, 0.564),transparent) ,url(images/Banner-image.png);
     width: 1320px;
     height: 600px;
     margin-left: 350px;
     margin-bottom: 200px;
     margin-top: 50px;
 }
+
 
 .one{
     font-size: 35px;
@@ -33,6 +34,7 @@
     font-size: 90px;
     color: red;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .red{
@@ -41,15 +43,89 @@
     text-align: center;
     padding-bottom: 0px;
     margin-bottom: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .all{
     font-size: 50px;
     text-align: center;
     margin-top: 0px;
     padding-top: 0px;   
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .happy{
     margin-left: 565px;
+}
+
+.party{
+
+        
+        
+    
+}
+
+
+.wello{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.942),rgba(20, 19, 19, 0.682),rgba(43, 42, 42, 0.403),transparent), url(images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin-left: 330px;
+    margin-top: 150px;
+}
+
+.welcome{
+    font-size: 64px;
+    color: #FFFF;
+    margin-left: 126px;
+    margin-top: 120px;
+    padding-top: 126px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    letter-spacing: 10.9px;
+}
+
+
+.dolor{
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    opacity: 0.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 126px;
+    margin-top: 24px;
+    padding-top: 20px;
+}
+
+.broke{
+    color: #FFFFFF;
+    font-size: 16px;
+    opacity: 0.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 126px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+}
+
+.btn{
+    font-size: 24px;
+    border: none;
+    color: #FFFF;
+    border-color: none;
+    background-color: transparent;
+    margin-left: 158px;
+    padding-top: 40px;
+}
+
+.ima{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.image{
+    
 }
