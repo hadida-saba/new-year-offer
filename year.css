@@ -4,7 +4,7 @@
 
 
 .new-bg{
-    background-image:linear-gradient(rgba(34, 33, 33, 0.564),transparent) ,url(images/Banner-image.png);
+    background-image:radial-gradient(rgba(34, 33, 33, 0.564),transparent) ,url(images/Banner-image.png);
     width: 1320px;
     height: 600px;
     margin-left: 350px;
@@ -60,21 +60,16 @@
     margin-left: 565px;
 }
 
-.party{
-
-        
-        
-    
-}
-
 
 .wello{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.942),rgba(20, 19, 19, 0.682),rgba(43, 42, 42, 0.403),transparent), url(images/Vectorrr.png);
-    width: 1320px;
+    border-radius: 15px;
+    width:1320px;
     height: 600px;
     margin-left: 330px;
     margin-top: 150px;
 }
+
 
 .welcome{
     font-size: 64px;
@@ -120,12 +115,61 @@
     padding-top: 40px;
 }
 
+
 .ima{
     display: flex;
     justify-content: space-between;
     
 }
 
-.image{
-    
+
+.linear{
+  background-image: linear-gradient(#ffd9d9fc,#fefafafd,transparent);
+  width: 1320px;
+  height: 440px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 105px;
+  margin-top: 120px;
+  margin-left: 329px;
+}
+
+
+.full{
+   font-size: 32px;
+   font-weight: bold;
+}
+
+
+.colon{
+ color: #FF0000;
+}
+
+
+.bottn{
+  background-color: #FF0000;
+  width: 167px;
+  height: 56px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border-color: #FFFFFF;
+  margin-top: 48px;
+}
+
+
+.imag{
+    background-color:rgb(252, 252, 252);
+    width: 1400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 295px;
+}
+
+
+.size{
+    width: 442px;
+    height: 450px;
+    margin: 10px;
 }
