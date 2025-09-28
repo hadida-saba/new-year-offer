@@ -7,7 +7,9 @@
     background-image:radial-gradient(rgba(34, 33, 33, 0.564),transparent) ,url(images/Banner-image.png);
     width: 1320px;
     height: 600px;
-    margin-left: 350px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 200px;
     margin-top: 50px;
 }
@@ -57,17 +59,19 @@
 }
 
 .happy{
-    margin-left: 565px;
+   margin-left: calc(50% - 402.5px);
+   margin-right: auto;
 }
 
+.party{
+    margin-left: calc(50% - 660px);
+}
 
 .wello{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.942),rgba(20, 19, 19, 0.682),rgba(43, 42, 42, 0.403),transparent), url(images/Vectorrr.png);
     border-radius: 15px;
     width:1320px;
-    height: 600px;
-    margin-left: 330px;
-    margin-top: 150px;
+    height:600px;
 }
 
 
@@ -131,7 +135,7 @@
   text-align: center;
   padding-top: 105px;
   margin-top: 120px;
-  margin-left: 329px;
+  margin-left: calc(50% - 660px);
 }
 
 
@@ -164,7 +168,7 @@
     width: 1400px;
     text-align: center;
     margin-top: 50px;
-    margin-left: 295px;
+    margin-left: calc(50% - 700px);
 }
 
 
